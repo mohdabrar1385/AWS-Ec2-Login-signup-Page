@@ -1,0 +1,82 @@
+Commands
+
+ssh -i /Users/anuragmaturu/Documents/AWSDocuments/USkeyPair.pem ec2-user@13.59.26.70
+
+sudo yum update
+
+sudo yum install python3 python3-pip tmux htop
+
+scp -ri /Users/AbrarAhmedMohammed/Desktop/CC/AWS/USkeyPair.pem /Users/AbrarAhmedMohammed/Desktop/CC/AWS/ ec2-user@13.59.26.70:/home/ec2-user
+
+scp -ri C:\Users\AbrarAhmedMohammed\Desktop\CC\AWS/USkeyPair.pem /Users/anuragmaturu/Downloads/AWS_Assignment/ ec2-user@13.59.26.70:/home/ec2-user
+
+rm users.db
+
+sudo -H pip3 install flask
+
+sudo -H pip3 install flask-sqlalchemy
+
+sudo -H pip3 install flask_login
+
+sudo -H pip3 install collection
+
+sudo -H pip3 install pathlib
+
+tmux new -s flasksession
+
+pip3 install -r /home/ec2-user/AWS_Assignment/requirements.txt
+
+sudo python3 /home/ec2-user/AWS_Assignment/main.py
+
+http://ec2-13-59-26-70.us-east-2.compute.amazonaws.com:8080
+
+http://13.59.26.70
+
+tmux ls
+
+
+
+
+ssh -i /Users/anuragmaturu/Downloads/cc-finalproject_key.pem  ec2-user@20.168.243.48
+
+
+-------------
+
+ssh -i /Users/anuragmaturu/Downloads/CC-Group7-FinalProject.pem azureuser@20.168.243.48
+
+chmod 400 /Users/anuragmaturu/Downloads/CC-Group7-FinalProject.pem
+
+sudo apt-get update
+
+sudo apt-get install python3 python3-pip tmux htop
+
+scp -ri /Users/anuragmaturu/Downloads/CC-Group7-FinalProject.pem /Users/anuragmaturu/Downloads/CC_FinalProject/ azureuser@20.168.243.48:/home/azureuser
+
+rm users.db
+
+sudo -H pip3 install flask
+
+sudo -H pip3 install flask-sqlalchemy
+
+sudo -H pip3 install flask_login
+
+sudo -H pip3 install collection
+
+sudo -H pip3 install pathlib
+
+sudo -H pip3 install pymssql
+
+sudo -H pip3 install pandas
+
+tmux new -s flasksession
+
+pip3 install -r /home/azureuser/CC_FinalProject/requirements.txt
+
+sudo python3 /home/azureuser/CC_FinalProject/main.py
+
+tmux kill-session -t flasksession
+
+tmux ls
+
+
+http://20.168.243.48:8080
